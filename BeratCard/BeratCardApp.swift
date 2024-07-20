@@ -11,7 +11,7 @@ import SwiftUI
 struct BeratCardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardView()
         }
     }
 }

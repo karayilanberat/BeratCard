@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F4DF9B222C4AF9E300A99121 /* BeratCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF9B212C4AF9E300A99121 /* BeratCardApp.swift */; };
-		F4DF9B242C4AF9E300A99121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF9B232C4AF9E300A99121 /* ContentView.swift */; };
+		F4DF9B242C4AF9E300A99121 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF9B232C4AF9E300A99121 /* CardView.swift */; };
 		F4DF9B262C4AF9E500A99121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DF9B252C4AF9E500A99121 /* Assets.xcassets */; };
 		F4DF9B292C4AF9E500A99121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DF9B282C4AF9E500A99121 /* Preview Assets.xcassets */; };
+		F4DF9B312C4AFFF800A99121 /* PlaywriteBEVLG-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4DF9B302C4AFFF800A99121 /* PlaywriteBEVLG-VariableFont_wght.ttf */; };
+		F4DF9B362C4B0E8700A99121 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF9B352C4B0E8700A99121 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4DF9B1E2C4AF9E300A99121 /* BeratCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeratCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DF9B212C4AF9E300A99121 /* BeratCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeratCardApp.swift; sourceTree = "<group>"; };
-		F4DF9B232C4AF9E300A99121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4DF9B232C4AF9E300A99121 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F4DF9B252C4AF9E500A99121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DF9B282C4AF9E500A99121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4DF9B302C4AFFF800A99121 /* PlaywriteBEVLG-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteBEVLG-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F4DF9B342C4B02A600A99121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F4DF9B352C4B0E8700A99121 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		F4DF9B202C4AF9E300A99121 /* BeratCard */ = {
 			isa = PBXGroup;
 			children = (
+				F4DF9B342C4B02A600A99121 /* Info.plist */,
+				F4DF9B2F2C4AFFD400A99121 /* Fonts */,
 				F4DF9B212C4AF9E300A99121 /* BeratCardApp.swift */,
-				F4DF9B232C4AF9E300A99121 /* ContentView.swift */,
+				F4DF9B232C4AF9E300A99121 /* CardView.swift */,
+				F4DF9B352C4B0E8700A99121 /* InfoView.swift */,
 				F4DF9B252C4AF9E500A99121 /* Assets.xcassets */,
 				F4DF9B272C4AF9E500A99121 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				F4DF9B282C4AF9E500A99121 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4DF9B2F2C4AFFD400A99121 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F4DF9B302C4AFFF800A99121 /* PlaywriteBEVLG-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +143,7 @@
 			files = (
 				F4DF9B292C4AF9E500A99121 /* Preview Assets.xcassets in Resources */,
 				F4DF9B262C4AF9E500A99121 /* Assets.xcassets in Resources */,
+				F4DF9B312C4AFFF800A99121 /* PlaywriteBEVLG-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DF9B242C4AF9E300A99121 /* ContentView.swift in Sources */,
+				F4DF9B242C4AF9E300A99121 /* CardView.swift in Sources */,
+				F4DF9B362C4B0E8700A99121 /* InfoView.swift in Sources */,
 				F4DF9B222C4AF9E300A99121 /* BeratCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 8QP8972X82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeratCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 8QP8972X82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeratCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
